@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files (do not commit large datasets)
+data/cache/*.tif
+data/cache/*.tiff
+data/cache/*.osm
+data/cache/*.osm.pbf
+data/cache/*.zip
+data/raw/
+
+# Generated outputs
+results/*.csv
+results/*.npz
+figures/output/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep these
+!data/cache/.gitkeep
+!data/airspace/*.geojson
+!results/.gitkeep

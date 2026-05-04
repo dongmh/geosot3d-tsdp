@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the paper and this software archive."
+title: "GeoSOT-3D TSDP: reference implementation"
+authors:
+  - family-names: "Wang"
+    given-names: "Qiurong"
+    affiliation: "Xi'an Physical Education University"
+  - family-names: "Liu"
+    given-names: "Zhiyong"
+    affiliation: "Xianyang Polytechnic Institute"
+  - family-names: "Zhao"
+    given-names: "Ningshe"
+    affiliation: "Xi'an University, School of Artificial Intelligence and Big Data"
+    email: "zhaoningshe@gmail.com"
+    # TODO: replace with institutional email before publication
+version: "1.0.0"
+date-released: "2026-XX-XX"
+license: MIT
+repository-code: "https://github.com/USERNAME/geosot3d-tsdp"
+# TODO: replace USERNAME with actual GitHub handle
+doi: "10.5281/zenodo.XXXXXXX"
+# TODO: replace with real Zenodo DOI after release
+keywords:
+  - GeoSOT-3D
+  - discrete global grid system
+  - adaptive mesh refinement
+  - low-altitude airspace
+  - path planning
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Wang"
+      given-names: "Qiurong"
+    - family-names: "Liu"
+      given-names: "Zhiyong"
+    - family-names: "Zhao"
+      given-names: "Ningshe"
+  title: "Adaptive spatial partitioning under the GeoSOT-3D global grid for efficient low-altitude environment modeling"
+  journal: "Scientific Reports"
+  year: 2026
+  # TODO: add volume, pages, DOI after acceptance
